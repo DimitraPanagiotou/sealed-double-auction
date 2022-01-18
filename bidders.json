@@ -1,0 +1,34 @@
+{
+    "bidders": [
+        {
+            "bid_value": 10,
+            "quantity": 58,
+            "bidder_type": 0
+        },
+        {
+            "bid_value": 8,
+            "quantity": 30,
+            "bidder_type": 0
+        },
+        {
+            "bid_value": 17,
+            "quantity": 47,
+            "bidder_type": 1
+        },
+        {
+            "bid_value": 14,
+            "quantity": 67,
+            "bidder_type": 0
+        },
+        {
+            "bid_value": 15,
+            "quantity": 69,
+            "bidder_type": 0
+        },
+        {
+            "bid_value": 8,
+            "quantity": 27,
+            "bidder_type": 1
+        }
+    ]
+}
