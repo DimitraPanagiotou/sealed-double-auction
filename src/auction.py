@@ -182,7 +182,6 @@ class Auction:
                 'value': Auction.DEPOSIT
             }
             self.__send_transaction(tx, 'placeBid', c_quantity, c_bid_value, sig, bidder.export_ring(),  bidder.bidder_type)
-            #print("instance.placeBid("+str(c_quantity)+" ,"+str(c_bid_value)+" ,"+str(bidder.export_ring())+" ,"+str(bidder.bid_value)+" ,"+str(bidder.bidder_type)+",{from:"+str(bidder.address)+"})")
 
         # --- Opening bids --- #
         for bidder in self.__bidders:
