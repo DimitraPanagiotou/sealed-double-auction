@@ -21,7 +21,7 @@ To install and run this implementation, 3 main parts are required:
   
  The code has been tested in Ubuntu-2020 with with Python 3.8.0, Solc 0.7.4 and Ganache 2.5.4
  
- ** Instructions **
+ ### Instructions
   - Install python, ganache and truffle
   - Clone locally this repo by running 
       git clone https://github.com/DimitraPanagiotou/sealed-double-auction
