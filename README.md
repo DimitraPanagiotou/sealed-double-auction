@@ -1,4 +1,4 @@
-# sealed-double-auction
+# Sealed Double Auction (Blockchain based Approach)
 
 This repository includes a Proof of Concept of the Ring Protocol applied to a sealed bid and quantity double auction. It extends the https://github.com/lepilotedef22/anonymous-sealed-bid-auction
 repository.
