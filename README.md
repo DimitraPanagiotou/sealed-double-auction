@@ -15,36 +15,31 @@ that decrypts the data and performs the necessary calculations to decide the auc
 
 ## Installation
 To install and run this implementation, 3 main parts are required:
-  - Solc
-  - Ganache
-  - Truffle
+  - **Solc**
+  - **Ganache**
+  - **Truffle**
   
  The code has been tested in Ubuntu-2020 with with Python 3.8.0, Solc 0.7.4 and Ganache 2.5.4
  
  ### Instructions
   - Install python, ganache and truffle
-  - Clone locally this repo by running 
-      
+  - Clone locally this repo by running    
       ```
       git clone https://github.com/DimitraPanagiotou/sealed-double-auction
       ```
   - Set Ganache with bidders+1 accounts
-      
       ```
       ganache-cli -a number_of_accounts
       ```
   - Connect with truffle console by simply running
-      
       ```
       truffle console 
       ```
-  - Compile and deploy the smart contract
-  
+  - Compile and deploy the smart contract (in truffle terminal run) 
       ``` 
-      (in truffle terminal run) migrate
+      migrate
       ```
   - Finally launch the python app 
-  
       ```
       python3 app.py
       ```
