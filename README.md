@@ -24,13 +24,28 @@ To install and run this implementation, 3 main parts are required:
  ### Instructions
   - Install python, ganache and truffle
   - Clone locally this repo by running 
+      
+      ```
       git clone https://github.com/DimitraPanagiotou/sealed-double-auction
+      ```
   - Set Ganache with bidders+1 accounts
+      
+      ```
       ganache-cli -a number_of_accounts
+      ```
   - Connect with truffle console by simply running
+      
+      ```
       truffle console 
+      ```
   - Compile and deploy the smart contract
+  
+      ``` 
       (in truffle terminal run) migrate
+      ```
   - Finally launch the python app 
+  
+      ```
       python3 app.py
+      ```
   
